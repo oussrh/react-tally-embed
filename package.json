@@ -12,7 +12,7 @@
     "build": "tsup",
     "dev": "tsup --watch",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build -o storybook-static"
+    "build-storybook": "npx storybook build -o storybook-static"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
