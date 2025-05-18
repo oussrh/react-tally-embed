@@ -3,7 +3,7 @@
 > Advanced React component to embed Tally.so forms with **fullscreen modal**, **custom animations**, **ref-based controls**, **theme support**, and **loader**.
 
 ![npm version](https://img.shields.io/npm/v/react-tally-embed)
-![license](https://img.shields.io/npm/l/react-tally-embed)
+![npm](https://img.shields.io/npm/v/react-tally-embed)
 
 ## Why use Tally.so?
 
