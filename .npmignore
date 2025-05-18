@@ -1,0 +1,6 @@
+.storybook/
+*.stories.tsx
+*.log
+.DS_Store
+*.zip
+src/**/*.stories.tsx
