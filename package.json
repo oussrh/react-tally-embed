@@ -25,6 +25,9 @@
     "@storybook/react-vite": "^7.0.0",
     "@storybook/addon-essentials": "^7.0.0"
   },
+  "scripts": {
+  "build-storybook": "storybook build -o storybook-static"
+  },
   "keywords": ["tally", "react", "form", "embed", "modal", "fullscreen"],
   "author": "Oussama Rhoni",
   "license": "MIT"
