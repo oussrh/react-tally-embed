@@ -1,8 +1,14 @@
 {
   "builds": [
-    { "src": "package.json", "use": "@vercel/static-build", "config": {} }
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/storybook-static/$1" }
+    {
+      "src": "/(.*)",
+      "dest": "/storybook-static/$1"
+    }
   ]
 }
