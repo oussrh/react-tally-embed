@@ -4,7 +4,7 @@ import { Meta, StoryObj } from "@storybook/react";
 import TallyEmbed from "./TallyEmbed";
 
 const meta: Meta<typeof TallyEmbed> = {
-  title: "TallyEmbed/HiddenFields",
+  title: "TallyEmbed/Playground",
   component: TallyEmbed
 };
 
@@ -12,17 +12,16 @@ export default meta;
 
 type Story = StoryObj<typeof TallyEmbed>;
 
-export const WithHiddenFields: Story = {
+export const Default: Story = {
   args: {
     formId: "your-form-id",
-    fullscreen: true,
-    theme: "dark",
-    animation: "slide",
+    fullscreen: false,
     queryParams: {
-      user_id: "oussama-9876",
-      source: "storybook",
-      campaign: "demo"
+      hideTitle: 1,
+      transparentBackground: 1,
+      dynamicHeight: 1
     },
+    theme: "light",
     showLoader: true
   }
 };
